@@ -113,3 +113,19 @@ button{
     color: #fff;
     cursor: pointer;
 }
+ .dropdown.content .a{
+    display:block;
+    text-decoration: none ;
+    padding: 5px;
+
+}
+.dropdown .content{
+    position: absolute;
+    display: none;
+}
+.dropdown button{
+    background :transparent;
+    border: none;
+    font-size: 16px;
+    background-color:rgb(121, 119, 119) ;
+}
