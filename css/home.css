@@ -198,4 +198,6 @@ display: block;
 }
 .columns{
     display:grid;
+    justify-content: row
+    align
 }
