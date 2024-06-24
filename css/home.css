@@ -186,5 +186,16 @@ width: 120px;
 .dropdown:hover .content{
 display: block;
 }
-
-
+.row{;
+    padding: 0 15px;
+}
+@media (min-width: 500px) {
+    .column{
+        width: 33.33%;
+        float: left;
+    }
+    
+}
+.columns{
+    display:grid;
+}
