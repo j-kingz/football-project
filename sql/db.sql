@@ -16,6 +16,8 @@ CREATE TABLE IF NOT EXISTS users (
     userImage varchar(50) NOT NULL DEFAULT 'userImage. jpg',
     created bigint(10)NOT NULL DEFAULT 0,
     updated bigint(10)NOT NULL DEFAULT 0,
+    UNIQUE KEY (),
+    
 
 );
  
