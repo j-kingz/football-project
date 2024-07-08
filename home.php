@@ -93,7 +93,7 @@
     </style>
 </head>
 <body>
-    <div class="banner">
+   
         <div class="navbar">
             <ul>
                 <li><a href="home.php">Home</a></li>
