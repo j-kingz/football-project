@@ -147,13 +147,9 @@
             </form>
         </div>
     </div>
-    <div class="footer">
-    <p>&copy; 2024 Football Company. All rights reserved.</p>
-</div>
     
-    <script>
-        // JavaScript code for handling comment submission and display will go here
-    </script>
+    
+   
 </body>
 </html>
 
