@@ -1,5 +1,5 @@
 <?php
-$servername = "127.0.0.1";
+$servername = "localhost";
 $username = "root";
 $password = "";
 $db_name = "contacts";
@@ -10,5 +10,5 @@ $conn = new mysqli($servername, $username, $password, $db_name);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-echo "Connected successfully";
+//echo "Connected successfully";
 ?>

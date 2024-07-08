@@ -98,7 +98,7 @@
             </div>
             <button class="bg-primary" type="submit">Login</button>
             <div>
-                <p><a href="register.html">Sign up</a></p>
+                <p><a href="register.php">Sign up</a></p>
             </div>
         </form>
     </div>

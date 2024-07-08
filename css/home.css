@@ -203,6 +203,7 @@ display: block;
 }
 footer {
     display: flex;
+    justify-content: center;
     text-align:center;
     color:grey ;
     padding: 10px;

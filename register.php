@@ -1,3 +1,23 @@
+<?php
+require("sql/connection.php");
+
+if(isset($_POST["sign-up"])){
+    $name=$_POST['name'];
+    $username = $_POST['username'];
+    $email = $_POST['email'];
+    $password = $_POST['password'];
+
+    $sql="INSERT INTO `users`(`name`, `username`, `Email`, `password`) VALUES ('$name','$username','$email','$password')";
+    $result=$conn->query($sql);
+
+    if($result){
+        header("Location: home.php");
+        }else{
+            echo "Error: " . $sql . "<br>" . $conn->error;
+
+    }
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -77,6 +97,7 @@
     </style>
 </head>
 <body>
+    <form action="" method="POST">
     <div class="banner">
         <h1>ELITE KICKERS ACADEMY</h1>
     </div>
@@ -84,16 +105,16 @@
         <h1>Login</h1>
         <form>
             <div class="input-group">
-                <input type="text" placeholder="Name" required>
+                <input type="text" placeholder="Name" name="name" required>
             </div>
             <div class="input-group">
-                <input type="text" placeholder="Username" required>
+                <input type="text" placeholder="Username" name="username" required>
             </div>
             <div class="input-group">
-                <input type="text" placeholder="Email" required>
+                <input type="text" placeholder="Email" name="email" required>
             </div>
             <div class="input-group">
-                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Password" name="password" required>
             </div>
            
             <div class="check">
@@ -102,11 +123,12 @@
             <div class="linker">
                 <p><a href="#">Forgot password</a></p>
             </div>
-            <button class="bg-primary" type="submit">Sign Up</button>
+            <button class="bg-primary"  name="sign-up"type="submit">Sign Up</button>
             <div>
-                <p><a href="login.html">Login</a></p>
+                <p><a href="login.php">Login</a></p>
             </div>
         </form>
-    </div>
+</div>
+</form>
 </body>
 </html>

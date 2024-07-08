@@ -96,12 +96,12 @@
     <div class="banner">
         <div class="navbar">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="products.html">Products</a></li>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="contacts.php">Contacts</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="services.php">Services</a></li>
+                <li><a href="products.php">Products</a></li>
             </ul>
         </div>
         <div class="content">
@@ -148,9 +148,9 @@
         </div>
         
     </div>
-    <div class="footer">
-    <p>&copy; 2024 Football Company. All rights reserved.</p>
-</div>
+   
+   <footer>&copy; 2024 Football Company. All rights reserved.</footer>
+
 
     
    
