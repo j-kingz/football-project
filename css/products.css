@@ -9,12 +9,46 @@ body {
 .header {
     background-color: #333;
     color: #fff;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
+    margin: 0;
+    font-size: 10px;
 }
 
-.content {
+.content-2 {
     padding: 20px;
+    margin-top: -50px;
+   
+}
+.content-2 h2{
+    font-size: 20px;
+}
+.content-2 form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.content-2 form .inputs{
+    margin: 10px;
+    font-size: 20px;
+}
+.content-2 form .inputs label, select{
+    font-size: 20px;
+}
+.content-2 button{
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin-left: 10px;
+    width: 60px;
+    height: 26px;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+.content-2 button:hover{
+    background-color: #f4f4f4;
+    color: black;
 }
 
 .table-container {
@@ -34,23 +68,26 @@ table, th, td {
 th, td {
     padding: 12px;
     text-align: left;
+
 }
 
 th {
     background-color: #333;
     color: white;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2;
+    margin-top: 10px;
 }
 
 .footer {
+    display: flex;
+    justify-content: center;
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 10px;
+    padding-top: -6px;
+    padding-bottom: 5px;
     position: fixed;
     bottom: 0;
     width: 100%;
+    height: 40px;
+    
 }
