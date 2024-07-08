@@ -201,5 +201,11 @@ display: block;
     justify-content: row
     
 }
-
+footer {
+    display: flex;
+    text-align:center;
+    color:grey ;
+    padding: 10px;
+    
+}
 

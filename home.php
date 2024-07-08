@@ -133,7 +133,7 @@
             </div>
         </div>
     </div>
-
+    
     <div class="comment-section">
         <h2>Comments</h2>
         <div class="comments">
@@ -146,8 +146,12 @@
                 <input type="submit" value="Post Comment">
             </form>
         </div>
+        
     </div>
-    
+    <div class="footer">
+    <p>&copy; 2024 Football Company. All rights reserved.</p>
+</div>
+
     
    
 </body>
