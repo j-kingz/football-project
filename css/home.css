@@ -186,7 +186,7 @@ width: 120px;
 .dropdown:hover .content{
 display: block;
 }
-.row{;
+.row{
     padding: 0 15px;
 }
 @media (min-width: 500px) {
@@ -199,5 +199,20 @@ display: block;
 .columns{
     display:grid;
     justify-content: row
-    align
+    
 }
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: -6px;
+    padding-bottom: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    
+}
+
