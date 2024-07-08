@@ -65,6 +65,9 @@
         }
     </style>
 </head>
+
+<?php require_once("sql/connection.php")?>
+
 <body>
     <div class="banner">
         <div class="navbar">
