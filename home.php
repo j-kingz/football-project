@@ -135,7 +135,7 @@
     </div>
     
     <div class="comment-section">
-        
+    <h2>Comments</h2>
         <div class="comments">
             <!-- Comments will be loaded dynamically using JavaScript -->
         </div>
