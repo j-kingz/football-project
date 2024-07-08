@@ -48,8 +48,37 @@
         </div>
     </div>
     
-    <div class="footer">
-        <p>&copy; 2024 Football Company. All rights reserved.</p>
-    </div>
+<div class="content">
+    <h2>Service Details Form</h2>
+    <form action="/submit_service" method="post">
+        <div class="form-group">
+            <label for="serviceName">Service Name:</label>
+            <input type="text" id="serviceName" name="serviceName" required>
+        </div>
+        <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" rows="4" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="price">Price:</label>
+            <input type="number" id="price" name="price" required>
+        </div>
+        <div class="form-group">
+            <label for="category">Category:</label>
+            <select id="category" name="category" required>
+                <option value="coaching">Coaching</option>
+                <option value="equipment">Equipment Rental</option>
+                <option value="field_booking">Field Booking</option>
+                <option value="team_building">Team Building</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</div>
+<div class="footer">
+    <p>&copy; 2024 Football Company. All rights reserved.</p>
+</div>
 </body>
 </html>
