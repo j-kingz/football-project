@@ -18,6 +18,7 @@ if(isset($_POST["sign-up"])){
     }
 }
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -124,6 +125,7 @@ if(isset($_POST["sign-up"])){
                 <p><a href="#">Forgot password</a></p>
             </div>
             <button class="bg-primary"  name="sign-up"type="submit">Sign Up</button>
+           
             <div>
                 <p><a href="login.php">Login</a></p>
             </div>
